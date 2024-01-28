@@ -61,11 +61,15 @@
         <div class="container">
           <h1 class="title-web-studio visually-hidden">Portfolio</h1>
           <ul class="list buttons-list">
-            <li><button class="button" type="button">All</button></li>
-            <li><button class="button" type="button">Web Site</button></li>
-            <li><button class="button" type="button">App</button></li>
-            <li><button class="button" type="button">Design</button></li>
-            <li><button class="button" type="button">Marketing</button></li>
+            <div class="flex-portfolio">
+              <li><button class="button" type="button">All</button></li>
+              <li><button class="button" type="button">Web Site</button></li>
+              <li><button class="button" type="button">App</button></li>
+            </div>
+            <div class="flex-portfolio">
+              <li><button class="button" type="button">Design</button></li>
+              <li><button class="button" type="button">Marketing</button></li>
+            </div>
           </ul>
           <ul class="list list-grid">
             <!-- Row 1 -->
@@ -86,7 +90,7 @@
                 </div>
                 <div class="container-grid">
                   <h2 class="two-title">Banking App Interface Concept</h2>
-                  <p class="p-body">App</p>
+                  <p class="p-body-portfolio">App</p>
                 </div>
               </a>
             </li>
@@ -107,7 +111,7 @@
                 </div>
                 <div class="container-grid">
                   <h2 class="two-title">Cashless Payment</h2>
-                  <p class="p-body">Marketing</p>
+                  <p class="p-body-portfolio">Marketing</p>
                 </div>
               </a>
             </li>
@@ -128,7 +132,7 @@
                 </div>
                 <div class="container-grid">
                   <h2 class="two-title">Meditation App</h2>
-                  <p class="p-body">App</p>
+                  <p class="p-body-portfolio">App</p>
                 </div>
               </a>
             </li>
@@ -150,7 +154,7 @@
                 </div>
                 <div class="container-grid">
                   <h2 class="two-title">Taxi Service</h2>
-                  <p class="p-body">Marketing</p>
+                  <p class="p-body-portfolio">Marketing</p>
                 </div>
               </a>
             </li>
@@ -171,7 +175,7 @@
                 </div>
                 <div class="container-grid">
                   <h2 class="two-title">Screen Illustrations</h2>
-                  <p class="p-body">Design</p>
+                  <p class="p-body-portfolio">Design</p>
                 </div>
               </a>
             </li>
@@ -192,7 +196,7 @@
                 </div>
                 <div class="container-grid">
                   <h2 class="two-title">Online Courses</h2>
-                  <p class="p-body">Marketing</p>
+                  <p class="p-body-portfolio">Marketing</p>
                 </div>
               </a>
             </li>
@@ -214,7 +218,7 @@
                 </div>
                 <div class="container-grid">
                   <h2 class="two-title">Instagram Stories Concept</h2>
-                  <p class="p-body">Design</p>
+                  <p class="p-body-portfolio">Design</p>
                 </div>
               </a>
             </li>
@@ -235,7 +239,7 @@
                 </div>
                 <div class="container-grid">
                   <h2 class="two-title">Organic Food</h2>
-                  <p class="p-body">Web Site</p>
+                  <p class="p-body-portfolio">Web Site</p>
                 </div>
               </a>
             </li>
@@ -256,7 +260,7 @@
                 </div>
                 <div class="container-grid">
                   <h2 class="two-title">Fresh Coffee</h2>
-                  <p class="p-body">Web Site</p>
+                  <p class="p-body-portfolio">Web Site</p>
                 </div>
               </a>
             </li>
@@ -311,13 +315,15 @@
         <div class="footer-div-form">
           <p class="p-footer-form">Subscribe</p>
           <form class="footer-form">
-            <label class="footer-label"
-              ><input
-                class="footer-input"
-                type="email"
-                name="email"
-                placeholder="E-mail"
-            /></label>
+            <div class="footer-label-form">
+              <label class="footer-label"
+                ><input
+                  class="footer-input"
+                  type="email"
+                  name="email"
+                  placeholder="E-mail"
+              /></label>
+            </div>
             <button class="button-footer-form" type="submit">
               Subscribe
               <svg class="svg-footer-form" width="24" height="24">
