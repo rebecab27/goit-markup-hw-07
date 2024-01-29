@@ -1336,8 +1336,14 @@ margin: auto;
   .adress
   {
     display: flex ;
-    margin: auto;
+
   
+  }
+
+  .adress-list{
+display: flex;
+padding-left: 251px;
+gap: 40px;
   }
   .adress-info{
    display: flex;
@@ -1346,7 +1352,7 @@ height: 24px;
 justify-content: center;
 align-items: center;
 flex-shrink: 0;
-gap: 40px;
+
   }
   .three-title
   {
@@ -1396,9 +1402,11 @@ letter-spacing: 0.32px;
     max-width: 264px;
   }
   .hero-image {
-  width: 1440px;
+    margin: auto;
+
   height: 600px;
   padding: 188px 0;
+  background-size: cover;
   }
   .section-two
   {
@@ -1406,7 +1414,7 @@ letter-spacing: 0.32px;
   flex-wrap: wrap;
   flex-direction: row;
   padding: 120px 0;
-  margin-left: 156px;
+  /* margin-left: 156px; */
 
   }
   .section-two-ul
@@ -1422,7 +1430,7 @@ letter-spacing: 0.32px;
   display: flex;
   padding-bottom: 120px;
   /* margin-left: 156px; */
-  width: 1440px;
+  width: 1158px;
   
   }
 
@@ -1433,7 +1441,7 @@ letter-spacing: 0.32px;
   display: flex;
   gap: 24px;
 /* margin-left: 156px; */
-  width: 1440px;
+  width: 1158px;
 
   
   }
@@ -1488,10 +1496,10 @@ letter-spacing: 0.32px;
 
   .section-five{
     display: flex;
-    width: 1440px;
+    width: 1158px;
   }
 
   footer{
-    width: 1440px;
+    width: 1158px;
   }
 }
