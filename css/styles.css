@@ -169,6 +169,7 @@ body {
   display: flex;
   justify-content: center;
   gap: 56px;
+  padding-bottom: 40px;
 }
 
 .logo-link-footer {
