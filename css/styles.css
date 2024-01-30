@@ -170,6 +170,13 @@ body {
   justify-content: center;
   gap: 56px;
   padding-bottom: 40px;
+}.
+
+
+.svg-top-line-menu{
+  cursor: pointer;
+  gap: 56px;
+
 }
 
 .logo-link-footer {
