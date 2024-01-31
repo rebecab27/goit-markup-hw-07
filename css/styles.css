@@ -1316,6 +1316,8 @@ justify-content: center;
 {
   /* padding-left: 80px; */
   text-align: center;
+      display: flex;
+      flex-direction: column;
 }
 
 
@@ -1370,14 +1372,19 @@ justify-content: center;
   .top-line-menu{
     display: none;
   }
+
+  .
     .container {
-       width: 1158px; 
+       /* width: 1158px;  */
       width: auto;
       margin: 0 auto;
-      padding-left: 15px;
-      padding-right: 15px;
+      /* padding-left: 15px;
+      padding-right: 15px; */
+      padding: 0 15px;
     }
-
+    .section-five-container{
+      width: 1158px;
+    }
 
 .logo-link{
     /* padding: 25.5px 76px 25.5px 156px; */
@@ -1652,7 +1659,7 @@ letter-spacing: 0.32px;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    display: flex;
+display: flex;
     width: auto;
   
   }
