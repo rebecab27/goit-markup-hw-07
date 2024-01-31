@@ -551,7 +551,8 @@ letter-spacing: 0.72px;
 }
 
 .hero-image {
-/* max-width: 1440px; */
+max-width: 1440px;
+margin: auto;
 background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Dark-bg-5.jpg);
 background-repeat: no-repeat;
 background-position: center;
@@ -1375,9 +1376,7 @@ justify-content: center;
 
   .
     .container {
-       /* width: 1158px;  */
-      /* width: auto; */
-      max-width: 1158;
+      width: auto;
       margin: 0 auto;
       /* padding-left: 15px;
       padding-right: 15px; */
@@ -1481,8 +1480,8 @@ letter-spacing: 0.32px;
     max-width: 264px;
   }
   .hero-image {
-    /* margin: auto; */
-  width: auto;
+  margin: auto;
+  max-width: 1440px;
   height: 436px;
   padding: 112px 0;
   background-size: cover;
@@ -1750,7 +1749,7 @@ letter-spacing: 0.32px;
   }
  
     .container {
-       width: auto;
+       width: 1158px;
       margin: 0 auto;
       padding-left: 15px;
       padding-right: 15px;
@@ -1840,7 +1839,7 @@ letter-spacing: 0.32px;
   }
   .hero-image {
     margin: auto;
-width: auto;
+  max-width: 1440px;
   height: 600px;
   padding: 188px 0;
   background-size: cover;
@@ -2013,3 +2012,6 @@ width: auto;
   display: none;
 }
 }
+
+
+
