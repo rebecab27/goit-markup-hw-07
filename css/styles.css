@@ -1996,4 +1996,8 @@ width: auto;
   width: calc((100%-48px) / 3);
   display: block;
 }
+
+.svg-top-line-menu{
+  display: none;
+}
 }
