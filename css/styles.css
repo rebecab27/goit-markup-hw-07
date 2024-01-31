@@ -1652,11 +1652,13 @@ letter-spacing: 0.32px;
   .p-footer-two{
     text-align: left;
     padding-top: 0;
+    margin-left: 24px;
   }
 
   .footer-container{
     flex-wrap: wrap;
     justify-content: space-evenly;
+    align-items: flex-start;
     /* align-items: center; */
 display: flex;
     width: auto;
@@ -1693,6 +1695,7 @@ display: flex;
 
 .footer-div-form{
   /* margin-top: 72px; */
+  margin: 72px 0px 0px 0px;
 }
 
 .p-footer-form{
@@ -1714,6 +1717,7 @@ display: flex;
 
 .div-one-footer{
   flex: 1;
+  margin-right: 24px;
 }
 
 .social-media-footer{
@@ -1965,6 +1969,7 @@ width: auto;
 
 .p-footer-two{
   text-align: left;
+
 }
 
 .section-four-list{
