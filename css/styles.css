@@ -1203,6 +1203,7 @@ justify-content: center;
   border: 1px solid #fff;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   padding-left: 16px;
+  margin: auto;
 
  
 }
@@ -1403,6 +1404,9 @@ letter-spacing: 0.32px;
   
   }
 
+  .team-member-list{
+    margin: 0;
+  }
   .adress-list{
 display: block;
 /* padding-left: 121px; */
@@ -1425,6 +1429,7 @@ gap: 12px;
  font-weight: 700;
  
   }
+  
   
   .three-title-team-member {
     text-align: center;
@@ -1580,6 +1585,8 @@ letter-spacing: 0.32px;
   .svg-icons-element 
   {
     /* padding-top: 16px; */
+    width: 104px;
+    height: 56px;
   }
 
  
@@ -1591,16 +1598,11 @@ letter-spacing: 0.32px;
 .section-five
 {    display: flex;
   padding: 96px 0px;
-  gap: 24px;
+
  
 }
 
-.section-five-container{
-  width: auto;
-      /* width: 1158px; */
-    /* margin: 0 auto;
-    padding: 0 15px; */
-}
+
   .footer-input{
 
   width: 264px;
@@ -1684,7 +1686,7 @@ letter-spacing: 0.32px;
 }
 
 .footer-div-form{
-  margin-top: 72px;
+  /* margin-top: 72px; */
 }
 
 .p-footer-form{
