@@ -1382,9 +1382,7 @@ justify-content: center;
       padding-right: 15px; */
       padding: 0 15px;
     }
-    /* .section-five-container{
-      width: 1158px;
-    } */
+ 
 
 .logo-link{
     /* padding: 25.5px 76px 25.5px 156px; */
@@ -2010,6 +2008,10 @@ letter-spacing: 0.32px;
 
 .svg-top-line-menu{
   display: none;
+}
+
+.section-five-list{
+  flex-wrap: nowrap;
 }
 }
 
